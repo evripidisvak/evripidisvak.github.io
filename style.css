@@ -8,6 +8,9 @@ body {
 	background: #1D1F21;
 	color: #333333;
 }
+.linktohere {
+	display: none;
+}
 .clear {
 	clear: both;
 }
@@ -223,6 +226,12 @@ body {
 	width: 95%;
 	height: 100%;
 	padding: 10px;
+}
+.linktohere {
+	display: inline-block;
+}
+#contact-info {
+	margin-bottom: 170px;
 }
 #pic {
 	-webkit-box-shadow: none;
