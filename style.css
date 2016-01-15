@@ -3,10 +3,27 @@
 	padding: 0;
 }
 body {
-	font: 16px Fira Sans, Sans-Serif;
+	font-family: 'Fira Sans', Sans-Serif;
+	font-size: 16px;
 	line-height: 24px;
 	background: #1D1F21;
 	color: #333333;
+}
+a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+::selection {
+  background: #19A88F;
+  color: #ffffff; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #19A88F;
+  color: #ffffff; /* Gecko Browsers */
 }
 .linktohere {
 	display: none;
@@ -35,7 +52,7 @@ h1 {
 	margin: 0 0 16px 0;
 	padding: 0 0 16px 0;
 	font-size: 43px;
-	font-weight: 500;
+	font-weight: bold;
 	word-spacing:10px;
 /*
 	letter-spacing: -1px;
@@ -80,6 +97,9 @@ a:hover {
 ul {
 	margin: 0 0 32px 17px;
 }
+.tel {
+    margin-left: 10px;
+}
 #objective {
 	width: 500px;
 	float: left;
@@ -123,6 +143,43 @@ dd.clear {
 .keySkills ul li {
 	margin-bottom: 3px;
 }
+
+/* button effect */
+.buttoneffect a::before,
+.buttoneffect a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.buttoneffect a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.buttoneffect a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.buttoneffect a:hover::before,
+.buttoneffect a:hover::after,
+.buttoneffect a:focus::before,
+.buttoneffect a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
 /*Responsive*/
 @media (max-width: 1200px) {
 dt {
@@ -221,14 +278,23 @@ h2 span {
 @media print {
 body {
 	color: #333333;
+	margin: 5mm 5mm 5mm 5mm;
 }
 #page-wrap {
 	width: 95%;
 	height: 100%;
-	padding: 10px;
+	padding: 10px 10px 0 10px;
+}
+.adminia {
+	position: relative;
+	display: block;
+	margin-top: -30px;
 }
 .linktohere {
 	display: inline-block;
+}
+.pdf {
+	display: none;
 }
 #contact-info {
 	margin-bottom: 170px;
