@@ -69,14 +69,19 @@ h2 {
 	position: relative;
 }
 h2 span {
+/*
 	position: absolute;
+*/
 	bottom: 0;
+/*
 	right: 20px;
+*/
 	font-style: italic;
 	font-family: Georgia, Serif;
 	font-size: 16px;
-	color: #999;
+	color: #696969;
 	font-weight: normal;
+	margin-left: 10px;
 }
 p {
 	margin: 0 0 16px 0;
@@ -128,7 +133,7 @@ dd {
 dd.clear {
 	float: none;
 	margin: 0;
-	height: 15px;
+	height: 20px;
 }
 .keySkills {
 	list-style-type: none;
@@ -192,7 +197,7 @@ dd {
 }
 h2 span {
 	position: unset;
-	display: block;
+	display: inline-block;
 }
 }
 @media (min-width: 766px) and (max-width: 929px) {
@@ -209,7 +214,7 @@ dd {
 }
 h2 span {
 	position: unset;
-	display: block;
+	display: inline-block;
 }
 #objective {
 	float: none;
@@ -235,7 +240,7 @@ dd {
 }
 h2 span {
 	position: unset;
-	display: block;
+	display: inline-block;
 }
 #pic {
 		float: left;
@@ -268,7 +273,7 @@ dd {
 }
 h2 span {
 	position: unset;
-	display: block;
+	display: inline-block;
 }
 #pic {
 		float: left;
@@ -301,7 +306,7 @@ body {
 }
 #pic {
 	-webkit-box-shadow: none;
-	box-shadow: none;	
+	box-shadow: none;
 }
 h2 span {
 	position: absolute;
@@ -313,6 +318,9 @@ dl {
 dt {
 	text-align: left;
 	page-break-inside: avoid;
+}
+.skills {
+	margin-top: 20px;
 }
 .breakavoid {
 	page-break-inside: avoid;
