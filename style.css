@@ -149,6 +149,9 @@ dd.clear {
 	margin-bottom: 3px;
 }
 
+.stupidpagebreak{
+	display: none;
+}
 /* button effect */
 .buttoneffect a::before,
 .buttoneffect a::after {
@@ -319,8 +322,13 @@ dt {
 	text-align: left;
 	page-break-inside: avoid;
 }
+.stupidpagebreak{
+	display: block;
+}
 .skills {
+/*
 	margin-top: 20px;
+*/
 }
 .breakavoid {
 	page-break-inside: avoid;
