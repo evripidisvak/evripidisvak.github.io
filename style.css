@@ -4,8 +4,8 @@
 }
 body {
 	font-family: 'Fira Sans', Sans-Serif;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 1.5em;
 	background: #1D1F21;
 	color: #333333;
 }
@@ -129,6 +129,7 @@ dt {
 dd {
 	width: 700px;
 	float: right;
+	margin-bottom: 20px;
 }
 dd.clear {
 	float: none;
@@ -287,6 +288,7 @@ h2 span {
 body {
 	color: #333333;
 	margin: 5mm 5mm 5mm 5mm;
+	font-size: 16px;
 }
 #page-wrap {
 	width: 95%;
@@ -323,6 +325,9 @@ dl {
 dt {
 	text-align: left;
 	page-break-inside: avoid;
+}
+dd {
+	width: 95% !important;
 }
 .stupidpagebreak{
 	display: block;
