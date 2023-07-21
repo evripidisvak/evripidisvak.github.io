@@ -1,20 +1,9 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset=utf-8 />
-  <title>  Evripidis Vakalis |  CV</title>
-  <link href="media/davewhipp-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/davewhipp-print.css" type="text/css" rel="stylesheet" media="print">
-</head>
-<body>
-  <div id="main">
-    <div id="content">
-    <h1 id="evripidis-vakalis">Evripidis Vakalis</h1>
-<p>Experienced software engineer with a focus on efficiency</p>
+I"•<h1 id="evripidis-vakalis">Evripidis Vakalis</h1>
+<p>Experienced web developer with a focus on efficiency and extensive experience in managing eCommerce websites.</p>
 
-<p><strong>Key Languages:</strong> PHP, Python, HTML, CSS, JS</p>
+<p><strong>Key Languages:</strong> Python, HTML, CSS, PHP, JS</p>
 
-<p><strong>Key Technologies:</strong> Symfony, Django, Wordpress, Woocommerce, Opencart</p>
+<p><strong>Key Technologies:</strong> Django, Wordpress, Woocommerce, Opencart</p>
 
 <div id="webaddress">
 <a href="mailto:ev.vakalis@gmail.com">ev.vakalis@gmail.com</a>
@@ -91,7 +80,7 @@
   <li>API integrations</li>
 </ul>
 
-<div class="page-break"></div>
+<!-- <div class="page-break"></div> -->
 
 <p><code class="language-plaintext highlighter-rouge">2016 - 2022</code>
 <strong>Web Developer - eCommerce Website administrator</strong> @ Soundstar</p>
@@ -124,6 +113,8 @@
   <li>Social media marketing</li>
   <li>Python scripts &amp; Django app for internal use</li>
 </ul>
+
+<div class="page-break"></div>
 
 <p><code class="language-plaintext highlighter-rouge">2013 - 2015</code>
 <strong>Web developer - PC service - IT</strong> @ Adminia</p>
@@ -184,8 +175,4 @@
 <!-- ### Footer
 
 Last updated: September 2022 -->
-
-    </div>
-  </div>
-</body>
-</html>
+:ET

@@ -3,11 +3,11 @@ layout: cv
 title: Evripidis Vakalis
 ---
 # Evripidis Vakalis
-Experienced web developer with a focus on efficiency and extensive experience in managing eCommerce websites.
+Experienced software engineer with a focus on efficiency
 
-__Key Languages:__ Python, HTML, CSS, PHP, JS
+__Key Languages:__ PHP, Python, HTML, CSS, JS
 
-__Key Technologies:__ Django, Wordpress, Woocommerce, Opencart
+__Key Technologies:__ Symfony, Django, Wordpress, Woocommerce, Opencart
 
 <div id="webaddress">
 <a href="mailto:ev.vakalis@gmail.com">ev.vakalis@gmail.com</a>
@@ -60,7 +60,28 @@ _Erasmus Mundus Programme_
 
 ## Experience
 
-`since 04.2016`
+
+`since 01.2023`
+__Software Engineer - Back-end Developer - Remote__ @ TravelStaytion
+
+<!-- Implementing, developing and integrating with APIs while keeping performance at its best and adhering to the best practices. -->
+
+>   __Main technologies and skills used:__
+
+>   PHP, Symfony, Gearman
+
+>   APIs, Integration
+
+<br>
+
+- Software Engineer
+- PHP Back-end developer
+- Developing and maintaining APIs
+- API integrations
+
+<div class="page-break"></div>
+
+`2016 - 2022`
 __Web Developer - eCommerce Website administrator__ @ Soundstar
 
 <!-- Managed and implemented company's digital presence. The company has a B2B eCommerce website and one for one of its own brands, showcasing the brand and products. I managed content, (co)developed, planned strategy and planned / implemented marketing campaigns for both. I managed an external team of developers / photographers / graphic designers and since 2021 an internal web developer. The traffic more than tripled in all channels. Introduced the company in the eCommerce. -->
@@ -84,7 +105,6 @@ __Web Developer - eCommerce Website administrator__ @ Soundstar
 - Social media marketing
 - Python scripts & Django app for internal use
 
-<div class="page-break"></div>
 
 `2013 - 2015`
 __Web developer - PC service - IT__ @ Adminia

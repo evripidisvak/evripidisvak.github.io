@@ -1,20 +1,9 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset=utf-8 />
-  <title>  Evripidis Vakalis |  CV</title>
-  <link href="media/davewhipp-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/davewhipp-print.css" type="text/css" rel="stylesheet" media="print">
-</head>
-<body>
-  <div id="main">
-    <div id="content">
-    <h1 id="evripidis-vakalis">Evripidis Vakalis</h1>
+I"7<h1 id="evripidis-vakalis">Evripidis Vakalis</h1>
 <p>Experienced software engineer with a focus on efficiency</p>
 
-<p><strong>Key Languages:</strong> PHP, Python, HTML, CSS, JS</p>
+<p><strong>Key Languages:</strong> Python, HTML, CSS, PHP, JS</p>
 
-<p><strong>Key Technologies:</strong> Symfony, Django, Wordpress, Woocommerce, Opencart</p>
+<p><strong>Key Technologies:</strong> Django, Wordpress, Woocommerce, Opencart</p>
 
 <div id="webaddress">
 <a href="mailto:ev.vakalis@gmail.com">ev.vakalis@gmail.com</a>
@@ -184,8 +173,4 @@
 <!-- ### Footer
 
 Last updated: September 2022 -->
-
-    </div>
-  </div>
-</body>
-</html>
+:ET
