@@ -5,9 +5,9 @@ title: Evripidis Vakalis
 
 # Evripidis Vakalis
 
-Experienced software engineer with a focus on efficiency
+Backend & API Integration Engineer specializing in scalable, efficient services
 
-__Key Languages:__ PHP, Python, SQL, HTML, CSS, JS
+__Key Languages:__ PHP, Python, SQL
 
 __Key Technologies:__ Symfony, Django, Docker, Wordpress, Woocommerce, Opencart
 
@@ -19,14 +19,20 @@ __Key Technologies:__ Symfony, Django, Docker, Wordpress, Woocommerce, Opencart
 | Thessaloniki, Greece
 </div>
 
+<!-- Software engineer specializing in backend and API integration, with expertise in PHP, Python, and microservices. Passionate about creating efficient, scalable solutions that support business growth and deliver measurable results. -->
+
 ## Education
 
-`since 10.2020`
+`10.2020 - 09.2025`
 __MSc, Postgraduate specialization in information systems__
 
 Hellenic Open University
 
 _Remote postgraduate programme_
+
+__Thesis:__ Automatic legal text classification on European Convention on Human Rights (ECHR) cases
+
+<br>
 
 `04.2018 - 01.2019`
 __Data Analyst__
@@ -37,6 +43,8 @@ National and Kapodistrian University of Athens
 
 _Centre of Continuous Education and Training_
 
+<br>
+
 `10.2016 - 03.2017`
 __Digital Marketing__
 
@@ -46,10 +54,14 @@ National and Kapodistrian University of Athens
 
 _Centre of Continuous Education and Training_
 
+<br>
+
 `2004 - 2014`
 __BSc, Automation Technician__
 
 Technological Educational Institute of Central Greece
+
+<br>
 
 `08.2007 - 02.2008`
 __Artificial intelligence (Courses taught in English)__
@@ -69,13 +81,13 @@ __PHP Software Engineer - Remote__ @ TravelStaytion
 
 > PHP, Symfony, Gearman, Docker
 
-> MariaDB, MySQL, MongoDB
+> MariaDB, MySQL, MongoDB, GKE
 
 > APIs, Integration
 
 <br>
 
-- Developing and integrating multiple APIs
+- Developing and extending multiple API integrations
 - Ensuring optimal performance in a microservice environment
 - Relational and non relational database optimization
 - Increasing data quality and performance while decreasing errors
@@ -117,7 +129,6 @@ __Web developer - PC service - IT__ @ Adminia
 
 - Web development for CMS: Opencart, Joomla, Wordpress, Drupal
 - PC repairs
-- Customer service
 - Workstations support
 - Remote support
 
@@ -130,25 +141,14 @@ Department of Automatic Assembly
 Space and Satellites Networks and Applications Department
 > Design and installation of wireless networks
 
-## Professional Skills
-
-### Language Skills
+## Language Skills
 
 __Greek:__ Native
 
 __English:__ Fluent in speaking, reading and writing (First Certificate in English, University of Cambridge)
 
-### Computer Skills
-
-HTML, CSS, PHP, Javascript, Python, Django, KNIME, Opencart, Wordpress, Woocommerce, Inkscape, Gimp, Windows, Mac,
-Linux, Google Ads, Social Media, Mailchimp
-
-### Other qualifications
-
-Fulfilled military obligations
-
-Driving license
+<br>
 
 <!-- ### Footer
 
-Last updated: November 2024 -->
+Last updated: Semptember 2025 -->
