@@ -92,6 +92,7 @@ __PHP Software Engineer - Remote__ @ TravelStaytion
 - Relational and non relational database optimization
 - Increasing data quality and performance while decreasing errors
 - Part of Agile team with Jira ticketing
+- Mentored new engineers
 
 <div class="page-break"></div>
 
