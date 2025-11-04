@@ -7,10 +7,6 @@ title: Evripidis Vakalis
 
 Backend & API Integration Engineer specializing in scalable, efficient services
 
-__Key Languages:__ PHP, Python, SQL
-
-__Key Technologies:__ Symfony, Django, Docker, Wordpress, Woocommerce, Opencart
-
 <div id="webaddress">
 <a href="mailto:ev.vakalis@gmail.com">ev.vakalis@gmail.com</a>
 | <a href="https://www.linkedin.com/in/evripidis-vakalis">LinkedIn</a>
@@ -19,11 +15,84 @@ __Key Technologies:__ Symfony, Django, Docker, Wordpress, Woocommerce, Opencart
 | Thessaloniki, Greece
 </div>
 
-<!-- Software engineer specializing in backend and API integration, with expertise in PHP, Python, and microservices. Passionate about creating efficient, scalable solutions that support business growth and deliver measurable results. -->
+## Summary
+
+Senior backend engineer with expertise in PHP (Symfony) and Python (Django), APIs and e-commerce platforms. Experienced in building and maintaining scalable services and integrations, designing reliable data flows, and mentoring engineers. Comfortable working in microservice and cloud environments with strong practical knowledge of databases and deployment tooling.
+
+## Technologies
+
+__Languages:__ PHP, Python, SQL, JavaScript
+
+__Frameworks:__ Symfony, Django, WordPress, WooCommerce, OpenCart
+
+__Databases:__ MySQL, MariaDB, MongoDB
+
+__Infrastructure & Tools:__ Docker, GKE, Git, Jira, Gearman, Jenkins, CI/CD
+
+__Other:__ REST & SOAP APIs, Microservices, Web scraping, Data analysis, eCommerce integrations
+
+## Experience
+
+`2023 – Present`
+__PHP Software Engineer - Tech Lead (Remote)__ @ TravelStaytion
+
+__<small>Architecture & Code Quality</small>__
+- Led backend development for API integration services in a microservice environment.
+- Redesigned the integration architecture, introducing a consistent, modular structure for third-party APIs.
+- Established best practices using DTOs, single-responsibility functions, and standardized error handling.
+
+__<small>Performance & Reliability</small>__
+- Refactored legacy code and reduced duplication, improving maintainability and developer onboarding.
+- Optimized database queries and background jobs, reducing API latency and synchronization errors.
+
+__<small>Collaboration & Mentorship</small>__
+- Collaborated in an Agile team with __Jira__, ensuring timely delivery and cross-team alignment.
+- Contributed to production deployments on __GKE__, using Docker-based workflows.
+- Mentored junior engineers on architecture and coding standards and performed code reviews.
+
+<small>__Tech:__ PHP, Symfony, MariaDB, APIs, MySQL, MongoDB, GKE, Memcached, Gearman, Docker, Jenkins</small>
+
+<div class="page-break"></div>
+<br>
+
+`2016 - 2022`
+__Web Developer - eCommerce Website Administrator__ @ Soundstar
+
+__<small>eCommerce & Digital Growth</small>__
+- Designed and launched the company’s WordPress/WooCommerce platform, integrating inventory and payments.
+- Led digital transformation, tripling organic traffic and increasing sales.
+
+__<small>Automation & Data Systems</small>__
+- Built a **Django-based scraping and reporting tool** for pricing insights.
+- Developed internal analytics and marketing automation using Python and KNIME.
+
+__<small>Team & Operations</small>__
+- Coordinated content, marketing, and technical teams.
+- Mentored junior engineers and managed vendors and hosting providers.
+
+<small>__Tech:__ WordPress, WooCommerce, Python, Django, HTML, CSS, PHP, JavaScript, KNIME, Web Scraping, Data Analysis</small>
+
+<br>
+
+`2013 - 2015`
+__Web developer - PC service - IT__ @ Adminia
+
+- Developed and maintained CMS sites (OpenCart, WordPress, Joomla, Drupal).
+- Provided workstation support, hardware repair and remote assistance for customers.
+
+<small>__Tech:__ Opencart, Wordpress, HTML, CSS, PHP, JS</small>
+
+<br>
+
+`2010`
+__Internship in the department of electronics__ @ Hellenic Aerospace Industry
+
+- Programming and operating SMD assembly machinery. (Department of Automatic Assembly)
+- Participation in wireless network design and installation. (Space and Satellites Networks and Applications Department)
 
 ## Education
 
-`10.2020 - 09.2025`
+`2020 - 2025`
 __MSc, Postgraduate specialization in information systems__
 
 Hellenic Open University
@@ -34,28 +103,6 @@ __Thesis:__ Automatic legal text classification on European Convention on Human 
 
 <br>
 
-`04.2018 - 01.2019`
-__Data Analyst__
-
-__Website and marketing operations for small tourist units__
-
-National and Kapodistrian University of Athens
-
-_Centre of Continuous Education and Training_
-
-<br>
-
-`10.2016 - 03.2017`
-__Digital Marketing__
-
-__Marketing and Branding Mix__
-
-National and Kapodistrian University of Athens
-
-_Centre of Continuous Education and Training_
-
-<br>
-
 `2004 - 2014`
 __BSc, Automation Technician__
 
@@ -63,86 +110,36 @@ Technological Educational Institute of Central Greece
 
 <br>
 
-`08.2007 - 02.2008`
+`2007 - 2008`
 __Artificial intelligence (Courses taught in English)__
 
-Southern University of Denmark
+Southern University of Denmark - Odense
 
 _Erasmus Mundus Programme_
 
-## Experience
-
-`since 01.2023`
-__PHP Software Engineer - Remote__ @ TravelStaytion
-
-<!-- Implementing, developing and integrating with APIs while keeping performance at its best and adhering to the best practices in a fully distributed microservice system. -->
-
-> __Main technologies and skills used:__
-
-> PHP, Symfony, Gearman, Docker
-
-> MariaDB, MySQL, MongoDB, GKE
-
-> APIs, Integration
-
-<br>
-
-- Developing and extending multiple API integrations
-- Ensuring optimal performance in a microservice environment
-- Relational and non relational database optimization
-- Increasing data quality and performance while decreasing errors
-- Part of Agile team with Jira ticketing
-- Mentored new engineers
-
 <div class="page-break"></div>
-
-`2016 - 2022`
-__Web Developer - eCommerce Website administrator__ @ Soundstar
-
-<!-- Managed and implemented company's digital presence. The company has a B2B eCommerce website and one for one of its own brands, showcasing the brand and products. I managed content, (co)developed, planned strategy and planned / implemented marketing campaigns for both. I managed an external team of developers / photographers / graphic designers and since 2021 an internal web developer. The traffic more than tripled in all channels. Introduced the company in the eCommerce. -->
-
-> __Main technologies and skills used:__
-
-> Wordpress, Woocommerce, Python, Django
-
-> HTML, CSS, PHP, JS, KNIME
-
-> Web Scraping, Data Analysis, Email Marketing, Social Media
-
 <br>
 
-- Managed company’s digital presence, tripling traffic across all channels
-- Planned and implemented eCommerce solution from te ground up
-- Coordinated content creation and marketing strategies with internal and external teams
-- Management of external partners, hosting provider & in house developer
-- Developed Python reporting scripts and Django scraping application
+__Additional Certificates__
 
-`2013 - 2015`
-__Web developer - PC service - IT__ @ Adminia
+National and Kapodistrian University of Athens
 
-> __Main technologies and skills used:__
+_Centre of Continuous Education and Training_
 
-> Opencart, Wordpress, HTML, CSS, PHP, JS
 
-> Workstation Support, Hardware Repair
+`2018`
+__Data Analyst__
 
-<br>
+`2018`
+__Website and marketing operations for small tourist units__
 
-- Web development for CMS: Opencart, Joomla, Wordpress, Drupal
-- PC repairs
-- Workstations support
-- Remote support
+`2017`
+__Digital Marketing__
 
-`2010`
-__Internship in the department of electronics__ @ Hellenic Aerospace Industry
+`2017`
+__Marketing and Branding Mix__
 
-Department of Automatic Assembly
-> Programming and operating of S.M.D assembly machinery
-
-Space and Satellites Networks and Applications Department
-> Design and installation of wireless networks
-
-## Language Skills
+## Languages
 
 __Greek:__ Native
 
@@ -152,4 +149,4 @@ __English:__ Fluent in speaking, reading and writing (First Certificate in Engli
 
 <!-- ### Footer
 
-Last updated: Semptember 2025 -->
+Last updated: November 2025 -->

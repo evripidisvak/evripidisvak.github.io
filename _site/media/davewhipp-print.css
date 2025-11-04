@@ -216,3 +216,7 @@ blockquote p:before {
 .page-break{
 	break-before: always;
 }
+
+small {
+	font-size: 90%;
+}
