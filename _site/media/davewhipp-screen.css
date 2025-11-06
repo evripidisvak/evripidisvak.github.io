@@ -315,3 +315,59 @@ blockquote p:before {
 @media only screen and (max-width: 480px) {
 	make one column somehow...
 }*/
+
+@media only screen and (max-width: 900px) {
+    body {
+        margin-left: 1em;
+        margin-right: 1em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    h1 {
+        left: 0;
+        width: 100%;
+        font-size: 2em;
+    }
+    
+    h2 {
+        text-align: left;
+        position: static;
+        width: 100%;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+        top: 0;
+    }
+    
+    h3 {
+        text-align: left;
+        position: static;
+        width: 100%;
+        top: 0;
+        margin-bottom: 0.3em;
+        font-style: italic;
+    }
+    
+    p {
+        left: 0;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    p code {
+        position: static;
+        text-align: left;
+        display: block;
+        margin-top: 0.3em;
+    }
+    
+    ul {
+        left: 0;
+        width: 100%;
+    }
+    
+    #webaddress {
+        left: 0;
+        width: 100%;
+    }
+}

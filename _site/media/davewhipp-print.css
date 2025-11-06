@@ -193,6 +193,11 @@ strong {
 	font-weight: bold;
 }
 
+.noPrint {
+	display: none;
+	visibility: hidden;
+}
+
 #ghbutton {
 	display: none;
 	visibility: hidden;

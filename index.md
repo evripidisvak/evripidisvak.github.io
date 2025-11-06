@@ -13,6 +13,7 @@ Backend & API Integration Engineer specializing in scalable, efficient services
 | <a href="https://github.com/evripidisvak">Github</a> <br>
 +30 6949 515 273
 | Thessaloniki, Greece
+<br class="noPrint"> <a class="noPrint" href="Evripidis_Vakalis_CV.pdf">⭳ Download CV</a>
 </div>
 
 ## Summary
@@ -33,8 +34,8 @@ __Other:__ REST & SOAP APIs, Microservices, Web scraping, Data analysis, eCommer
 
 ## Experience
 
-`2023 – Present`
 __PHP Software Engineer - Tech Lead (Remote)__ @ TravelStaytion
+`2023 – Present`
 
 __<small>Architecture & Code Quality</small>__
 - Led backend development for API integration services in a microservice environment.
@@ -55,8 +56,8 @@ __<small>Collaboration & Mentorship</small>__
 <div class="page-break"></div>
 <br>
 
-`2016 - 2022`
 __Web Developer - eCommerce Website Administrator__ @ Soundstar
+`2016 - 2022`
 
 __<small>eCommerce & Digital Growth</small>__
 - Designed and launched the company’s WordPress/WooCommerce platform, integrating inventory and payments.
@@ -74,8 +75,8 @@ __<small>Team & Operations</small>__
 
 <br>
 
-`2013 - 2015`
 __Web developer - PC service - IT__ @ Adminia
+`2013 - 2015`
 
 - Developed and maintained CMS sites (OpenCart, WordPress, Joomla, Drupal).
 - Provided workstation support, hardware repair and remote assistance for customers.
@@ -84,16 +85,21 @@ __Web developer - PC service - IT__ @ Adminia
 
 <br>
 
-`2010`
 __Internship in the department of electronics__ @ Hellenic Aerospace Industry
+`2010`
 
-- Programming and operating SMD assembly machinery. (Department of Automatic Assembly)
-- Participation in wireless network design and installation. (Space and Satellites Networks and Applications Department)
+__<small>Department of Automatic Assembly</small>__
+
+Programming and operating SMD assembly macinery.
+
+__<small>Space and Satellites Networks and Applications Department</small>__
+
+Participation in wireless network design and installation.
 
 ## Education
 
-`2020 - 2025`
 __MSc, Postgraduate specialization in information systems__
+`2020 - 2025`
 
 Hellenic Open University
 
@@ -103,17 +109,17 @@ __Thesis:__ Automatic legal text classification on European Convention on Human 
 
 <br>
 
-`2004 - 2014`
 __BSc, Automation Technician__
+`2004 - 2014`
 
-Technological Educational Institute of Central Greece
+Technological Educational Institute of Chalkida
 
 <br>
 
+__Artificial intelligence__
 `2007 - 2008`
-__Artificial intelligence (Courses taught in English)__
 
-Southern University of Denmark - Odense
+Syddansk Universitet - University of Southern Denmark - Odense
 
 _Erasmus Mundus Programme_
 
@@ -127,17 +133,17 @@ National and Kapodistrian University of Athens
 _Centre of Continuous Education and Training_
 
 
-`2018`
 __Data Analyst__
-
 `2018`
+
 __Website and marketing operations for small tourist units__
+`2018`
 
-`2017`
 __Digital Marketing__
-
 `2017`
+
 __Marketing and Branding Mix__
+`2017`
 
 ## Languages
 
