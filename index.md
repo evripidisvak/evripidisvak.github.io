@@ -13,7 +13,8 @@ Backend & API Integration Engineer specializing in scalable, efficient services
 | <a href="https://github.com/evripidisvak">Github</a> <br>
 +30 6949 515 273
 | Thessaloniki, Greece
-<br class="noPrint"> <a class="noPrint" href="Evripidis_Vakalis_CV.pdf">⭳ Download CV</a>
+<br class="noPrint">
+<a class="noPrint" href="Evripidis_Vakalis_CV.pdf">Download PDF</a>
 </div>
 
 ## Summary
