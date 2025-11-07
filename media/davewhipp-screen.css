@@ -90,8 +90,6 @@ video {
 	font-size: 110%;
 	font: inherit;
 	vertical-align: baseline;
-	background-color: #f3f3f3;
-	color: #333333;
 }
 
 small {
@@ -142,12 +140,20 @@ table {
 
 /* end of reset */
 
+/* ============================================
+   LIGHT MODE (Default)
+   ============================================ */
+
+html,
+body {
+	background-color: #f3f3f3;
+	color: #333333;
+}
 
 body {
 	font: normal normal 400;
 	font-size: 110%;
 	line-height: 1.5em;
-	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Cantarell, Verdana, sans-serif;
 	margin-top: 1em;
 	margin-left: auto;
@@ -168,10 +174,7 @@ p {
 code {
 	font: normal normal;
 	font-size: 100%;
-	/*line-height: 1em;*/
 	font-family: monospace, sans-serif;
-	/* font-family: Fira Mono,Menlo,monospace,sans-serif; */
-	/* font-family: Monaco,Menlo,monospace,sans-serif; */
 	color: #858585;
 }
 
@@ -181,7 +184,6 @@ p code {
 	right: -20%;
 }
 
-
 ul {
 	position: relative;
 	left: 25%;
@@ -190,7 +192,6 @@ ul {
 	margin-top: -0.5em;
 }
 
-/*uncomment to get dashes in the list*/
 li:before {
 	content: "-";
 	position: relative;
@@ -198,10 +199,8 @@ li:before {
 }
 
 li {
-	/*second line indent*/
 	padding-left: 1.25em;
 	text-indent: -1.25em;
-	/*color: #777;*/
 }
 
 li ul {
@@ -226,11 +225,9 @@ h1 {
 	line-height: 1.5em;
 	position: relative;
 	left: 25%;
-	/* color: #19A88F; */
 }
 
 h1+p {
-	/*subtitle*/
 	font-style: italic;
 	font-size: 110%;
 }
@@ -256,11 +253,10 @@ h3 {
 
 a {
 	color: inherit;
-	/*text-decoration:none*/
 }
 
 a:hover {
-	color: #39f
+	color: #39f;
 }
 
 #webaddress {
@@ -269,25 +265,27 @@ a:hover {
 	left: 25%;
 	color: #19A88F;
 	font-family: monospace, sans-serif;
-	/* font-family: Fira Mono,Menlo,monospace,sans-serif; */
 	font-size: 100%;
 	width: 70%;
 }
 
 #webaddress a {
 	text-decoration: none;
+	color: #19A88F;
+}
+
+#webaddress a:hover {
+	color: #39f;
 }
 
 #webaddress a.noPrint::before {
-    /* content: '↓'; */
 	content: '⬇';
 	font-size: 1.2em;
-    font-weight: bold;
-    margin-right: 0.2em;
+	font-weight: bold;
+	margin-right: 0.2em;
 }
 
 em {
-	/* font-weight: bold; */
 	font-style: italic;
 }
 
@@ -299,79 +297,224 @@ strong {
 	display: none;
 }
 
-/* MINE */
 ::selection {
 	color: #ffffff;
 	background: #19A88F;
 }
 
-blockquote p:before,
-blockquote {
+blockquote,
+blockquote p:before {
 	font-size: 100%;
 	line-height: 1em;
 	font-family: monospace, sans-serif;
-	/* font-family: Fira Mono, Menlo, monospace, sans-serif; */
-	/* font-family: Monaco,Menlo,monospace,sans-serif; */
-	/* color: rgb(128, 128, 128); */
 }
 
 blockquote p:before {
 	content: '> ';
 }
 
+/* ============================================
+   MOBILE RESPONSIVE
+   ============================================ */
+@media only screen and (max-width: 450px) {
+	.theme-toggle {
+		position: unset !important;
+		display: block;
+		text-align: right;
+	}
+}
+
 @media only screen and (max-width: 900px) {
-    body {
-        margin-left: 1em;
-        margin-right: 1em;
-        padding-left: 0;
-        padding-right: 0;
-        max-width: 100%;
-    }
-    
-    h1 {
-        left: 0 !important;
-        width: 100% !important;
-        font-size: 2em;
-    }
-    
-    h2 {
-        text-align: left !important;
-        position: static !important;
-        width: 100% !important;
-        margin-top: 2em;
-        margin-bottom: 0.5em;
-        top: 0 !important;
-    }
-    
-    h3 {
-        text-align: left !important;
-        position: static !important;
-        width: 100% !important;
-        top: 0 !important;
-        margin-bottom: 0.3em;
-        font-style: italic;
-    }
-    
-    p {
-        left: 0 !important;
-        width: 100% !important;
-        margin-right: 0;
-    }
-    
-    p code {
-        position: static !important;
-        text-align: left;
-        display: block;
-        margin-top: 0.3em;
-    }
-    
-    ul {
-        left: 0 !important;
-        width: 100% !important;
-    }
-    
-    #webaddress {
-        left: 0 !important;
-        width: 100% !important;
-    }
+	body {
+		margin-left: 1em;
+		margin-right: 1em;
+		padding-left: 0;
+		padding-right: 0;
+		max-width: 100%;
+	}
+
+	h1 {
+		left: 0 !important;
+		width: 100% !important;
+		font-size: 2em;
+	}
+
+	h2 {
+		text-align: left !important;
+		position: static !important;
+		width: 100% !important;
+		margin-top: 2em;
+		margin-bottom: 0.5em;
+		top: 0 !important;
+	}
+
+	h3 {
+		text-align: left !important;
+		position: static !important;
+		width: 100% !important;
+		top: 0 !important;
+		margin-bottom: 0.3em;
+		font-style: italic;
+	}
+
+	p {
+		left: 0 !important;
+		width: 100% !important;
+		margin-right: 0;
+	}
+
+	p code {
+		position: static !important;
+		text-align: left;
+		display: block;
+		margin-top: 0.3em;
+	}
+
+	ul {
+		left: 0 !important;
+		width: 100% !important;
+	}
+
+	#webaddress {
+		left: 0 !important;
+		width: 100% !important;
+	}
+}
+
+/* ============================================
+   DARK MODE TOGGLE
+   ============================================ */
+
+.theme-toggle {
+	position: fixed;
+	top: 1em;
+	right: 1em;
+	z-index: 1000;
+}
+
+.theme-toggle input {
+	display: none;
+}
+
+.theme-toggle label {
+	cursor: pointer;
+	padding: 0.5em 1em;
+	background: #19A88F;
+	color: white;
+	border-radius: 4px;
+	font-size: 0.9em;
+}
+
+/* ============================================
+   DARK MODE STYLES
+   ============================================ */
+
+/* System preference: Dark mode (when toggle is OFF) */
+@media (prefers-color-scheme: dark) {
+
+	html:not(:has(.theme-toggle input:checked)),
+	body:not(:has(.theme-toggle input:checked)),
+	body:not(:has(.theme-toggle input:checked)) * {
+		background-color: #2a2a2a;
+		color: #e0e0e0;
+	}
+
+	body:not(:has(.theme-toggle input:checked)) h2,
+	body:not(:has(.theme-toggle input:checked)) #webaddress,
+	body:not(:has(.theme-toggle input:checked)) #webaddress a {
+		color: #2dd4bf;
+	}
+
+	body:not(:has(.theme-toggle input:checked)) code {
+		color: #a0a0a0;
+	}
+
+	body:not(:has(.theme-toggle input:checked)) a:hover,
+	body:not(:has(.theme-toggle input:checked)) #webaddress a:hover {
+		color: #60a5fa;
+	}
+
+	body:not(:has(.theme-toggle input:checked)) ::selection {
+		color: #1a1a1a;
+		background: #2dd4bf;
+	}
+
+	body:not(:has(.theme-toggle input:checked)) .theme-toggle label::before {
+		content: '☀️ ';
+	}
+}
+
+/* System preference: Dark mode -> Toggle to Light mode (when toggle is ON) */
+@media (prefers-color-scheme: dark) {
+
+	html:has(.theme-toggle input:checked),
+	body:has(.theme-toggle input:checked),
+	body:has(.theme-toggle input:checked) * {
+		background-color: #f3f3f3;
+		color: #333333;
+	}
+
+	body:has(.theme-toggle input:checked) h2,
+	body:has(.theme-toggle input:checked) #webaddress,
+	body:has(.theme-toggle input:checked) #webaddress a {
+		color: #19A88F;
+	}
+
+	body:has(.theme-toggle input:checked) code {
+		color: #858585;
+	}
+
+	body:has(.theme-toggle input:checked) a:hover,
+	body:has(.theme-toggle input:checked) #webaddress a:hover {
+		color: #39f;
+	}
+
+	body:has(.theme-toggle input:checked) ::selection {
+		color: #ffffff;
+		background: #19A88F;
+	}
+
+	body:has(.theme-toggle input:checked) .theme-toggle label::before {
+		content: '🌙 ';
+	}
+}
+
+/* System preference: Light mode -> Toggle to Dark mode (when toggle is ON) */
+@media (prefers-color-scheme: light) {
+
+	html:has(.theme-toggle input:checked),
+	body:has(.theme-toggle input:checked),
+	body:has(.theme-toggle input:checked) * {
+		background-color: #2a2a2a;
+		color: #e0e0e0;
+	}
+
+	body:has(.theme-toggle input:checked) h2,
+	body:has(.theme-toggle input:checked) #webaddress,
+	body:has(.theme-toggle input:checked) #webaddress a {
+		color: #2dd4bf;
+	}
+
+	body:has(.theme-toggle input:checked) code {
+		color: #a0a0a0;
+	}
+
+	body:has(.theme-toggle input:checked) a:hover,
+	body:has(.theme-toggle input:checked) #webaddress a:hover {
+		color: #60a5fa;
+	}
+
+	body:has(.theme-toggle input:checked) ::selection {
+		color: #1a1a1a;
+		background: #2dd4bf;
+	}
+
+	body:has(.theme-toggle input:checked) .theme-toggle label::before {
+		content: '☀️ ';
+	}
+
+	/* Light mode default - show moon icon */
+	body:not(:has(.theme-toggle input:checked)) .theme-toggle label::before {
+		content: '🌙 ';
+	}
 }

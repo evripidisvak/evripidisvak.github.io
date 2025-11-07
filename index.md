@@ -3,6 +3,11 @@ layout: cv
 title: Evripidis Vakalis
 ---
 
+<div class="theme-toggle noPrint">
+    <input type="checkbox" id="dark-mode-toggle">
+    <label for="dark-mode-toggle">Toggle Theme</label>
+</div>
+
 # Evripidis Vakalis
 
 Backend & API Integration Engineer specializing in scalable, efficient services
