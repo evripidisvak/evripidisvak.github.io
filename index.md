@@ -5,7 +5,7 @@ title: Evripidis Vakalis
 
 <div class="theme-toggle noPrint">
     <input type="checkbox" id="dark-mode-toggle">
-    <label for="dark-mode-toggle">Toggle Theme</label>
+    <label for="dark-mode-toggle" title="Switch theme"><span>Switch theme</span></label>
 </div>
 
 # Evripidis Vakalis

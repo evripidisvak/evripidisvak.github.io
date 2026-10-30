@@ -279,10 +279,15 @@ a:hover {
 }
 
 #webaddress a.noPrint::before {
-	content: '⬇';
-	font-size: 1.2em;
-	font-weight: bold;
-	margin-right: 0.2em;
+	content: '';
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-right: 0.3em;
+	vertical-align: -0.15em;
+	background-color: currentColor;
+	-webkit-mask: var(--icon-download) center / contain no-repeat;
+	mask: var(--icon-download) center / contain no-repeat;
 }
 
 em {
@@ -392,17 +397,61 @@ blockquote p:before {
 	z-index: 1000;
 }
 
+:root {
+	--icon-sun: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='4'/%3E%3Cpath d='M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4'/%3E%3C/svg%3E");
+	--icon-download: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v12M7 10l5 5 5-5M4 17v3h16v-3'/%3E%3C/svg%3E");
+	--icon-moon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linejoin='round'%3E%3Cpath d='M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z'/%3E%3C/svg%3E");
+}
+
+/* Hidden but focusable: Tab + Space toggles */
 .theme-toggle input {
-	display: none;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	opacity: 0;
 }
 
 .theme-toggle label {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.75rem;
+	height: 2.75rem;
+	border-radius: 50%;
 	cursor: pointer;
-	padding: 0.5em 1em;
-	background: #19A88F;
-	color: white;
-	border-radius: 4px;
-	font-size: 0.9em;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.theme-toggle label span {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
+
+/* Mask icon: takes active theme accent colour */
+.theme-toggle label::before {
+	content: '';
+	width: 1.25rem;
+	height: 1.25rem;
+	background-color: #19A88F;
+	-webkit-mask: var(--icon-moon) center / contain no-repeat;
+	mask: var(--icon-moon) center / contain no-repeat;
+	transition: transform 0.3s ease;
+}
+
+/* Touch screens keep :hover after a tap */
+@media (hover: hover) {
+	.theme-toggle label:hover::before {
+		transform: rotate(20deg) scale(1.1);
+	}
+}
+
+.theme-toggle input:focus-visible + label {
+	outline: 2px solid #19A88F;
+	outline-offset: 2px;
 }
 
 /* ============================================
@@ -440,7 +489,9 @@ blockquote p:before {
 	}
 
 	body:not(:has(.theme-toggle input:checked)) .theme-toggle label::before {
-		content: '☀️ ';
+		-webkit-mask-image: var(--icon-sun);
+		mask-image: var(--icon-sun);
+		background-color: #2dd4bf;
 	}
 }
 
@@ -475,7 +526,9 @@ blockquote p:before {
 	}
 
 	body:has(.theme-toggle input:checked) .theme-toggle label::before {
-		content: '🌙 ';
+		-webkit-mask-image: var(--icon-moon);
+		mask-image: var(--icon-moon);
+		background-color: #19A88F;
 	}
 }
 
@@ -510,11 +563,15 @@ blockquote p:before {
 	}
 
 	body:has(.theme-toggle input:checked) .theme-toggle label::before {
-		content: '☀️ ';
+		-webkit-mask-image: var(--icon-sun);
+		mask-image: var(--icon-sun);
+		background-color: #2dd4bf;
 	}
 
 	/* Light mode default - show moon icon */
 	body:not(:has(.theme-toggle input:checked)) .theme-toggle label::before {
-		content: '🌙 ';
+		-webkit-mask-image: var(--icon-moon);
+		mask-image: var(--icon-moon);
+		background-color: #19A88F;
 	}
 }
