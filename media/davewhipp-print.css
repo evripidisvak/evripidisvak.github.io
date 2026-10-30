@@ -219,7 +219,7 @@ blockquote p:before {
 }
 
 .page-break{
-	break-before: always;
+	break-before: page;
 }
 
 small {

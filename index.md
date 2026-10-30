@@ -10,12 +10,12 @@ title: Evripidis Vakalis
 
 # Evripidis Vakalis
 
-Backend & API Integration Engineer specializing in scalable, efficient services
+Backend Tech Lead, API Integrations
 
 <div id="webaddress">
 <a href="mailto:ev.vakalis@gmail.com">ev.vakalis@gmail.com</a>
 | <a href="https://www.linkedin.com/in/evripidis-vakalis">LinkedIn</a>
-| <a href="https://github.com/evripidisvak">Github</a> <br>
+| <a href="https://github.com/evripidisvak">GitHub</a> <br>
 +30 6949 515 273
 | Thessaloniki, Greece
 <br class="noPrint">
@@ -24,45 +24,54 @@ Backend & API Integration Engineer specializing in scalable, efficient services
 
 ## Summary
 
-Senior backend engineer with expertise in PHP (Symfony) and Python (Django), APIs and e-commerce platforms. Experienced in building and maintaining scalable services and integrations, designing reliable data flows, and mentoring engineers. Comfortable working in microservice and cloud environments with strong practical knowledge of databases and deployment tooling.
+Backend engineer and tech lead working mainly with PHP (Symfony) and third-party API integrations. Leads the team that connects property management systems and channel managers to a travel distribution platform. Focused on maintainable architecture, code quality and the practical use of AI in software development, with an MSc thesis in machine learning and NLP for legal text classification. Earlier experience in Python (Django), e-commerce and data analysis.
 
 ## Technologies
 
-__Languages:__ PHP, Python, SQL, JavaScript
+__Languages:__ PHP 8, Python, SQL, JavaScript
 
-__Frameworks:__ Symfony, Django, WordPress, WooCommerce, OpenCart
+__Frameworks:__ Symfony, Django, WordPress, WooCommerce
 
-__Databases:__ MySQL, MariaDB, MongoDB
+__Data:__ MySQL, MariaDB, MongoDB, Memcached, Elasticsearch
 
-__Infrastructure & Tools:__ Docker, GKE, Git, Jira, Gearman, Jenkins, CI/CD
+__Infrastructure:__ Docker, Kubernetes (GKE), GitHub Actions, Jenkins, Gearman, New Relic
 
-__Other:__ REST & SOAP APIs, Microservices, Web scraping, Data analysis, eCommerce integrations
+__Code Quality:__ PHPUnit, PHPStan, Rector, PHP-CS-Fixer
+
+__AI Tooling:__ Claude Code, Claude Agent SDK, MCP, AI agents
+
+__Machine Learning & NLP:__ scikit-learn, XGBoost, PyTorch, Hugging Face Transformers, Optuna, NLTK
+
+__Integration:__ REST, SOAP, webhooks, OAuth 2.0, microservices
 
 ## Experience
 
-__PHP Software Engineer - Tech Lead (Remote)__ @ TravelStaytion
-`2023 – Present`
+__Tech Lead, Backend & Integrations (Remote)__ @ TravelStaytion
+`2023 - Present`
 
-__<small>Architecture & Code Quality</small>__
-- Led backend development for API integration services in a microservice environment.
-- Redesigned the integration architecture, introducing a consistent, modular structure for third-party APIs.
-- Established best practices using DTOs, single-responsibility functions, and standardized error handling.
+__<small>Leadership</small>__
+- Lead the supply integrations team and join engineering leadership and management meetings.
+- Guide technical decisions, write product requirements and mentor engineers through design and code reviews.
+- Wrote postmortems, integration docs and runbooks.
 
-__<small>Performance & Reliability</small>__
-- Refactored legacy code and reduced duplication, improving maintainability and developer onboarding.
-- Optimized database queries and background jobs, reducing API latency and synchronization errors.
+__<small>Architecture & Integrations</small>__
+- Designed a shared sync framework so common logic is written once for all integrations.
+- Built and led new PMS and channel manager integrations, adding new property sources.
 
-__<small>Collaboration & Mentorship</small>__
-- Collaborated in an Agile team with __Jira__, ensuring timely delivery and cross-team alignment.
-- Contributed to production deployments on __GKE__, using Docker-based workflows.
-- Mentored junior engineers on architecture and coding standards and performed code reviews.
+__<small>Code Quality & Upgrades</small>__
+- Introduced static analysis, automated refactoring and unit testing (PHPStan, Rector, PHP-CS-Fixer, PHPUnit).
+- Led our PHP upgrades with a reusable regression test harness, and planned the upgrade path for the company's other services.
 
-<small>__Tech:__ PHP, Symfony, MariaDB, APIs, MySQL, MongoDB, GKE, Memcached, Gearman, Docker, Jenkins</small>
+__<small>AI-Assisted Development</small>__
+- Lead Claude Code adoption in engineering: shared configuration, review agents and workflows connected to monitoring, logs and vendor docs.
+- Automated support and operations work with AI: reservation investigations, ticket triage, partner onboarding, deploy checks, and daily reviews of production errors and vendor API changes.
+- Contribute to an internal AI agent that traces support issues through tickets, code and logs to resolve them at first contact.
 
-<div class="page-break"></div>
+<small>__Tech:__ PHP, Symfony, MySQL, MariaDB, MongoDB, Gearman, Memcached, Docker, GKE, GitHub Actions, Jenkins, New Relic, Elasticsearch, PHPUnit, PHPStan, Rector, Claude Code, Claude Agent SDK</small>
+
 <br>
 
-__Web Developer - eCommerce Website Administrator__ @ Soundstar
+__Web Developer, eCommerce Website Administrator__ @ Soundstar
 `2016 - 2022`
 
 __<small>eCommerce & Digital Growth</small>__
@@ -70,7 +79,7 @@ __<small>eCommerce & Digital Growth</small>__
 - Led digital transformation, tripling organic traffic and increasing sales.
 
 __<small>Automation & Data Systems</small>__
-- Built a **Django-based scraping and reporting tool** for pricing insights.
+- Built a Django-based scraping and reporting tool for pricing insights.
 - Developed internal analytics and marketing automation using Python and KNIME.
 
 __<small>Team & Operations</small>__
@@ -81,26 +90,23 @@ __<small>Team & Operations</small>__
 
 <br>
 
-__Web developer - PC service - IT__ @ Adminia
+__Web Developer, PC Service & IT__ @ Adminia
 `2013 - 2015`
 
 - Developed and maintained CMS sites (OpenCart, WordPress, Joomla, Drupal).
 - Provided workstation support, hardware repair and remote assistance for customers.
 
-<small>__Tech:__ Opencart, Wordpress, HTML, CSS, PHP, JS</small>
+<small>__Tech:__ OpenCart, WordPress, HTML, CSS, PHP, JavaScript</small>
 
 <br>
 
-__Internship in the department of electronics__ @ Hellenic Aerospace Industry
+__Internship, Department of Electronics__ @ Hellenic Aerospace Industry
 `2010`
 
-__<small>Department of Automatic Assembly</small>__
+- Programmed and operated SMD assembly machinery.
+- Took part in wireless network design and installation.
 
-Programming and operating SMD assembly macinery.
-
-__<small>Space and Satellites Networks and Applications Department</small>__
-
-Participation in wireless network design and installation.
+<div class="page-break"></div>
 
 ## Education
 
@@ -109,27 +115,26 @@ __MSc, Postgraduate specialization in information systems__
 
 Hellenic Open University
 
-_Remote postgraduate programme_
+_Part-time, alongside full-time work_
 
-__Thesis:__ Automatic legal text classification on European Convention on Human Rights (ECHR) cases
+__Thesis:__ Automatic legal text classification on European Convention on Human Rights (ECHR) cases<br><small>_Compared classical ML (linear SVM, XGBoost, neural networks) with transformers (DistilBERT, Longformer)._</small>
 
 <br>
 
 __BSc, Automation Technician__
-`2004 - 2014`
+`2014`
 
 Technological Educational Institute of Chalkida
 
 <br>
 
-__Artificial intelligence__
+__Artificial Intelligence__
 `2007 - 2008`
 
-Syddansk Universitet - University of Southern Denmark - Odense
+University of Southern Denmark (Syddansk Universitet), Odense
 
-_Erasmus Mundus Programme_
+_Erasmus Programme_
 
-<div class="page-break"></div>
 <br>
 
 __Additional Certificates__
@@ -138,24 +143,13 @@ National and Kapodistrian University of Athens
 
 _Centre of Continuous Education and Training_
 
-
-__Data Analyst__
-`2018`
-
-__Website and marketing operations for small tourist units__
-`2018`
-
-__Digital Marketing__
-`2017`
-
-__Marketing and Branding Mix__
-`2017`
+Data Analyst (2018), Website and Marketing Operations for Small Tourist Units (2018), Digital Marketing (2017), Marketing and Branding Mix (2017)
 
 ## Languages
 
 __Greek:__ Native
 
-__English:__ Fluent in speaking, reading and writing (First Certificate in English, University of Cambridge)
+__English:__ Fluent (Cambridge First Certificate in English)
 
 <br>
 
